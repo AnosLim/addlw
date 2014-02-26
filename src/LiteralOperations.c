@@ -2,6 +2,8 @@
 #include <malloc.h>
 #include <stdio.h>
 
+char FSR[0x1000];
+
 ByteCode *createByteCode(){
 	ByteCode *code = malloc(sizeof(ByteCode));
 	code->instruction->mnemonic = 0;

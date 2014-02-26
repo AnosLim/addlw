@@ -15,6 +15,8 @@ typedef struct {
 	int operand3;
 }ByteCode;
 
+extern char FSR[];
+
 //Function Prototypes
 ByteCode *createByteCode();
 int execute(ByteCode *code);
